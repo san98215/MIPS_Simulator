@@ -5,17 +5,8 @@ This project is a C implementation designed to emulate a MIPS processor and exec
 ## Features
 
 - **Instruction Input**: The simulator accepts a file with MIPS instructions formatted as a standard MIPS assembly file.
-- **Execution Output**: After each instruction execution, the simulator presents the processor and memory state. The detailed output includes:
-  - Instruction Number
-  - Executed Instruction
-  - Register States
-  - Memory States
 - **Supported Instructions**: 
-  - Arithmetic: `add`, `addi`, `sub`, `mul`, `div`
-  - Memory: `lw`, `sw`
-  - Branching: `beq`, `bne`
-  - Jumps: `j`, `jal`
-  - System: `syscall`
+  - `LD`, `LDR`, `ADD`, `BRp`, `STR`
 
 ## Getting Started
 
