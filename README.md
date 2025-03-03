@@ -6,7 +6,10 @@ This project is a C implementation designed to emulate a MIPS processor and exec
 
 - **Instruction Input**: The simulator accepts a text file with MIPS instructions encoded in binary.
 - **Supported Instructions**: 
-  - `LD`, `LDR`, `ADD`, `BRp`, `STR`
+  - Arithmetic: `add`, `addi`, `sub`, `mul`, `div`
+  - Memory: `lw`, `sw`
+  - Branching: `beq`, `bne`
+  - Jumps: `j`, `jal`
 
 ## Getting Started
 
